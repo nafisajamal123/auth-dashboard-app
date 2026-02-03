@@ -1,4 +1,4 @@
-#  Auth Dashboard – Full-Stack Assignment (Frontend Focus)
+#  Auth Dashboard – Full-Stack Assignment 
 
 A modern full-stack web application built as part of a Frontend Developer Intern shortlisting assignment.  
 The project demonstrates **authentication, protected routes, dashboard UI, and CRUD operations**, with clean frontend–backend integration and secure practices.
@@ -20,13 +20,13 @@ The primary focus is on **frontend quality and UX**, supported by a minimal but 
 
 ##  Tech Stack
 
-### Frontend (Primary)
+### Frontend 
 - **React.js** (Vite)
 - **Tailwind CSS** – responsive, utility-first UI
 - **React Router DOM** – routing & protected routes
 - **Axios** – API communication
 
-### Backend (Supportive)
+### Backend 
 - **Node.js**
 - **Express.js**
 - **MongoDB + Mongoose**
@@ -73,26 +73,27 @@ cd auth-dashboard-app
 
 
 # Backend Setup
+```bash
 cd backend
 npm install
+```
 
 Create a .env file:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
 
-npm run dev
+```bash
+npx nodemon src/app.js
+```
+
 Backend runs on: http://localhost:4000
 
 
 # Frontend Setup
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 Frontend runs on: http://localhost:5173
-
-## Demo Credentials
-Email: demo@test.com  
-Password: 123
 
 
 # Security Practices
