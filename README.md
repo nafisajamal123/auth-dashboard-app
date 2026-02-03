@@ -95,6 +95,11 @@ Backend runs on: http://localhost:4000
 - npm run dev
 Frontend runs on: http://localhost:5173
 
+## Demo Credentials
+- Email: demo@test.com  
+- Password: 123  
+
+
 
 # Security Practices
 - Passwords are never stored in plain text
