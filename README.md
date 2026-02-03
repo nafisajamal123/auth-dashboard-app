@@ -18,6 +18,7 @@ The primary focus is on **frontend quality and UX**, supported by a minimal but 
 
 ---
 
+
 ##  Tech Stack
 
 ### Frontend 
@@ -59,6 +60,12 @@ The primary focus is on **frontend quality and UX**, supported by a minimal but 
 - Loading states
 - Modular folder structure
 - Centralized API handling with JWT interceptor
+
+---
+
+## API Documentation
+- A Postman collection is included in the repository:
+- Auth-Dashboard.postman_collection.json
 
 ---
 
